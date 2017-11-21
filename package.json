@@ -1,0 +1,15 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johneisenheim/poc.git",
+  "author": "Nello Saulino <nello.saulino@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "socket.io": "^2.0.4"
+  }
+}
